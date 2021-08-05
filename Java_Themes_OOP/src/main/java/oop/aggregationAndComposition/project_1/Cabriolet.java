@@ -2,7 +2,7 @@
  * Copyright (c) 2021 Tander, All Rights Reserved.
  */
 
-package oop.aggregationAndComposition;
+package oop.aggregationAndComposition.project_1;
 
 /**
  * Класс Cabriolet
