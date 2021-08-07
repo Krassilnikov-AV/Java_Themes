@@ -2,8 +2,7 @@
  * Copyright (c) 2021 Tander, All Rights Reserved.
  */
 
-package oop.aggregationAndComposition.project_2;
-
+package oop.project_3_polymorphism;
 /**
  * Класс CarOwner
  * Ассоциация – это когда один класс включает в себя другой класс в качестве одного из полей.
