@@ -92,6 +92,9 @@ _ _ _ _
 
 ![полиморф_2](https://user-images.githubusercontent.com/61631173/128602824-354156c4-265d-4476-8189-71b2922a7109.JPG)</p>
 
+![полиморф_3](https://user-images.githubusercontent.com/61631173/128602959-8d9ebfb0-0a58-4209-9123-2e3f76fbbb9a.JPG)</p>
+
+на примере видно переопределение метода <em>gas()</em> в классе потомке <em>F1Car1 </em>.
 _ _ _ _ 
 
 - <em>Interface_AbstractClass-> </p> https://github.com/Krassilnikov-AV/Java_Themes/tree/master/Java_Themes_Core/src/main/java/core/Interface_AbstractClass описание⬇️</em> </p>
