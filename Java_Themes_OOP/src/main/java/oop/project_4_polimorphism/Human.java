@@ -26,4 +26,7 @@ public class Human implements Swim {
 		return "Я " + name + ", мне " + age + " лет. ";
 	}
 
+	public void swimSp() {
+		System.out.println("");
+	}
 }

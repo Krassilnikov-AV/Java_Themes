@@ -19,4 +19,8 @@ public class Fish implements Swim {
 		System.out.println("Я рыба " + name + ". Я плыву, двигая плавниками.");
 
 	}
+
+	public void swimSp() {
+		System.out.println("");
+	}
 }

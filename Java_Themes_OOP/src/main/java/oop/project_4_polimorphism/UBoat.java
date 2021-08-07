@@ -18,4 +18,8 @@ public class UBoat implements Swim {
 	public void swim() {
 		System.out.println("Подводная лодка плывет, вращая винты, со скоростью " + speed + " узлов.");
 	}
+
+	public void swimSp() {
+		System.out.println("");
+	}
 }
