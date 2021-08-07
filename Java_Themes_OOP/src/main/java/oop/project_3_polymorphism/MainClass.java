@@ -14,9 +14,7 @@ public class MainClass {
 		Engine engineZil = new Engine(350);
 		Car truck = new Truck("Зил", 110, engineZil, 1981);
 		truck.gas();
-/**
- * Создание и вызов методом объекта класса F1Car1
- * */
+
 		Car car = new Car();
 		System.out.println("Мощность автомобиля составляет: " + car.getEngine()
 			+ "л/с \n ----------------------------------------------------------");
@@ -24,10 +22,11 @@ public class MainClass {
 
 		formula1Car.gas();
 		formula1Car.pitStop();    // если создадим экземпляр класса Car, то данный метод не вызовется!
+		Functionality carF1 = formula1Car;
+//		formula1Car
+		carF1.musicPlay();
 		formula1Car.brake();
-/**
- * Создание экземпляра класса автовладельца и вызов метода управления автомобилем, который уже имеется
- * */
+
 		CarOwner carOwner = new CarOwner("Александр", 35, truck);
 		carOwner.drivingCar();
 	}

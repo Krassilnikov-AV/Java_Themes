@@ -3,11 +3,12 @@
  */
 
 package oop.project_3_polymorphism;
+
 /**
  * Класс F1Car1
  * типичный пример к
  */
-public class F1Car1 extends Car {
+public class F1Car1 extends Car implements Functionality {
 //	private int p;
 //	private Engine engine;
 
@@ -25,7 +26,7 @@ public class F1Car1 extends Car {
 		System.out.println("Вы нажали на педаль газа автомобиля \n" +
 			"модель: " + getModel() + "\n максимальная скорость: " + getMaxSpeed() +
 			"\n мощность двигателя: " + getEngine() + "\n год изготовления: " + getYearOfManufacture());
-		System.out.println("you have pressed the gas pedal of a Cabriolet car");
+		System.out.println("you have pressed the gas pedal of a racing car");
 		System.out.println("------------------------------------------");
 	}
 
@@ -34,8 +35,19 @@ public class F1Car1 extends Car {
 		System.out.println("техническая остановка машины во время гонки для выполнения " +
 			"заправки топливом, смены шин и т.д.\n technical stop of the car during " +
 			"the race to perform refueling, changing tires, etc.\n -----------------------------");
-
 	}
 
+	@Override
+	public void brake() {
+		System.out.println("нажали на педаль тормоза\n _ _ _ _ _ _ ");
+	}
 
+	@Override
+	public String musicPlay() {
+		return "Play: La Cura — Franco Battiato";
+	}
+
+	@Override
+	public void conditioner() {
+	}
 }

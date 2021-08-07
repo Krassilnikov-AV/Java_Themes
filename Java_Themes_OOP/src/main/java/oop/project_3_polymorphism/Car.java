@@ -3,16 +3,15 @@
  */
 
 package oop.project_3_polymorphism;
-/**
- * Класс Car - класс родитель
- */
-public class Car {
+
+
+public class Car implements Functionality {
 	private String model;
 	private int maxSpeed;
 	private int yearOfManufacture;
 
 	private Engine engine;
-// пример композиции
+
 	public Car() {
 		this.engine = new Engine(360);
 	}
@@ -71,7 +70,18 @@ public class Car {
 	}
 
 	@Override
+	public String musicPlay() {
+		return "Play: La Cura — Franco Battiato";
+	}
+
+	@Override
+	public void conditioner() {
+
+	}
+
+	@Override
 	public String toString() {
 		return model + maxSpeed + engine + yearOfManufacture;
 	}
+
 }
