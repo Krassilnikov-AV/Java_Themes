@@ -1,4 +1,4 @@
-package oop.project_4_polimorphism;
+package oop.project_4_polimorphism.swim;
 
 /**
  * Класс Swim

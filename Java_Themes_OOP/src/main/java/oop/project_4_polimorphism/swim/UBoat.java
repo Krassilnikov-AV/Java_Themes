@@ -2,7 +2,7 @@
  * Copyright (c) 2021 Tander, All Rights Reserved.
  */
 
-package oop.project_4_polimorphism;
+package oop.project_4_polimorphism.swim;
 
 /**
  * Класс UBoat
